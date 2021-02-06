@@ -51,6 +51,6 @@ body{
 
 @media (max-width: 800px){
        .calculator-grid{
-        min-width: 50vw;
+        width: 400px;
        }
 }
