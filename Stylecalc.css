@@ -48,9 +48,3 @@ body{
 	color: #fff;
 	font-size: 2.5rem;
 }
-
-@media (max-width: 800px){
-       .calculator-grid{
-        width: 400px;
-       }
-}
