@@ -48,3 +48,10 @@ body{
 	color: #fff;
 	font-size: 2.5rem;
 }
+
+@media (max-width: 600px){
+	.calculator-grid{
+		min-height: 80vh;
+		grid-template-columns: repeat(4, 100px);
+	}
+}
