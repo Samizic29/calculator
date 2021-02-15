@@ -51,7 +51,8 @@ body{
 
 @media (max-width: 600px){
 	.calculator-grid{
-		min-height: 80vh;
-		grid-template-columns: repeat(4, 100px);
+		min-height: 50vh;
+		grid-template-columns: repeat(4, 60px);
+		grid-template-rows: minmax(100px, auto) repeat(5, 60px);
 	}
 }
